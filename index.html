@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -152,9 +152,175 @@
 
 <!-- countdown section start here -->
 
+<div class=" container lg:px-24 px-8 my-8">
+
+<div class="flex lg:flex-row flex-col items-center justify-between mb-4">
+
+<div>
+    <h1 class="text-5xl mb-4">Deal of the day</h1>
+    <p class="font-semibold">Contrary to popular belief, is not simply random text. <br>
+         It has roots in a piece of classical literature<br>
+        Latin from 45 BC, making it over 2000 years old.</p>
+</div>
+
+<div>
+    <div class="grid auto-cols-max grid-flow-col gap-10 text-center">
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:15;"></span>
+          </span>
+          days
+        </div>
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:10;"></span>
+          </span>
+          hours
+        </div>
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:24;"></span>
+          </span>
+          min
+        </div>
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:${counter};"></span>
+          </span>
+          sec
+        </div>
+      </div>
+</div>
+
+</div>
+
+<!-- card section start here -->
+
+<section class="grid lg:grid-cols-4 grid-cols-1 gap-4">
+    
+<div class="flex rounded-xl justify-center items-center flex-col space-y-4 p-4 shadow-xl">
+    <img class="mb-4" src="./images/fruit6.png" alt="">
+    <h1 class="text-xl border-b-2 mb-3">12.90$ - 18.85$</h1>
+    <h1>Apple</h1>
+
+    <!-- rating start -->
+
+    <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+
+    <!-- rating ends -->
+
+    <button class="btn text-red-500 bg-transparent hover:bg-transparent">Details</button>
+</div>
+
+<div class="flex rounded-xl justify-center items-center flex-col space-y-4 p-4 shadow-xl">
+    <img class="mb-4" src="./images/fruit7.png" alt="">
+    <h1 class="text-xl border-b-2 mb-3">12.90$ - 18.85$</h1>
+    <h1>Orange</h1>
+
+    <!-- rating start -->
+
+    <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+
+    <!-- rating ends -->
+
+    <button class="btn text-red-500 bg-transparent hover:bg-transparent">Details</button>
+</div>
+
+<div class="flex rounded-xl justify-center items-center flex-col space-y-4 p-4 shadow-xl">
+    <img class="mb-4" src="./images/fruit8.png" alt="">
+    <h1 class="text-xl border-b-2 mb-3">12.90$ - 18.85$</h1>
+    <h1>Red Dragon</h1>
+
+    <!-- rating start -->
+
+    <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+
+    <!-- rating ends -->
+
+    <button class="btn text-red-500 bg-transparent hover:bg-transparent">Details</button>
+</div>
+
+<div class="flex rounded-xl justify-center items-center flex-col space-y-4 p-4 shadow-xl">
+    <img class="mb-4" src="./images/fruit9.png" alt="">
+    <h1 class="text-xl border-b-2 mb-3">12.90$ - 18.85$</h1>
+    <h1>Banana</h1>
+
+    <!-- rating start -->
+
+    <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input
+          type="radio"
+          name="rating-2"
+          class="mask mask-star-2 bg-orange-400"
+          checked="checked" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+
+    <!-- rating ends -->
+
+    <button class="btn text-red-500 bg-transparent hover:bg-transparent">Details</button>
+</div>
+
+
+
+</section>
+<div class="flex items-center justify-center w-full m-8">
+    <button class="btn bg-red-400 border-none text-white hover:bg-green-600 duration-1000 text-center">Shop All</button>
+</div>
+<!-- card section ends here -->
+
+</div>
 
 
 <!-- count down section ends here -->
+
+
+<!-- Meet the team section start here -->
+
+<section>
+
+<div class="container lg:px-24 px-8 my-8">
+
+
+
+</div>
+
+</section>
+
+<!-- Meet the team section ends here -->
 
     </main>
 
